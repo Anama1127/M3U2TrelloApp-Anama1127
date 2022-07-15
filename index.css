@@ -60,3 +60,91 @@ nav ul li a:hover::before{
     width: 100%;
 
 }
+
+.contenedor{
+    width: 1200px;
+    height: 450px;
+    background-color: #bc65a2;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 2%;
+    border-style: dotted;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+    color: #513252;
+    font-style: normal;
+}
+
+.tareasPorHacer{
+    float: left;
+    width: 380px;
+    height: 410px;
+    background-color: #FFC18E;
+    margin: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 2%;
+    border-style: dotted solid;
+    text-align: center;
+    font-style: normal;
+    padding: 20px;
+    color: #412842;
+    font-style: normal;
+    font-size: 0.6cm;
+}
+
+.tareasEnProceso{
+    float: none;
+    width: 380px;
+    height: 410px;
+    background-color: #FFC18E;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 2%;
+    border-style: dotted solid;
+    text-align: center;
+    font-style: normal;
+    color: #412842;
+    font-style: normal;
+    font-size: 0.6cm;
+}
+
+.tareasRealizadas{
+    float: right;
+    width: 380px;
+    height: 400px;
+    background-color: #FFC18E;
+    margin: right;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 2%;
+    border-style: dotted solid;
+    text-align: center;
+    color: #412842;
+    font-style: normal;
+    font-size: 0.6cm;
+    position: relative;
+}
+
+
+.tareasPorHacer:hover{
+    background-color: #f3b5ca;
+}
+
+.tareasEnProceso:hover{
+    background-color: #f3b5ca;
+}
+
+.tareasRealizadas:hover{
+    background-color: #f3b5ca;
+}
+
+body{
+    overflow: auto;
+}
