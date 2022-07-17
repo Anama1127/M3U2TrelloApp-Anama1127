@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+    margin: 20px;
+    color: #513252;
+    font-style: normal;
+}
+
+form{
+    background-color: #f494d7;
+    text-align: center;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 0.5cm;
+}
+
+input::placeholder{
+    font-size: small;
+    font-style: italic;
+    color: #513252;
+}
+
+textarea{
+    background-color: #FFC18E;
+    font-size: medium;
+    font-style: italic;
+    color: #513252;
+    text-align: center;
+    margin-left: 5px;
+    height: 200px;
+    width: 90%;
+    resize: none;
+}
+
+button{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #de61cf;
+    border-radius: 6px;
+    border: 2px solid #32053c;
+    margin-left: 200px;
+}
+
+button:hover{
+        color: #d91ddc;
+        background-color: #ffffff;
+      }
+
+label{
+    position: relative;
+    text-align: left;
+    display: block;
+    margin-left: 15px;
+}
+
